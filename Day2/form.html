@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>regestration form</title>
+</head>
+<body>
+    <h1>hello</h1>
+    <form action="">
+        <label for="">Name:</label>
+        <!-- input is a self closing tag because it does not have any content-->
+        <input type="text" autofocus >  <!---->
+        <label for="">Email:</label>
+        <input type ="email">
+        <br>
+        <label for="">Password</label>
+        <input type="password" required>
+        <label for="">Age</label>
+        <input type="number">
+        <label >Gender</label>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <br>
+        <label for="">hobbies</label>
+        <input type="checkbox" name="hobbies" >reading
+        <input type="checkbox" name="hobbies"> Traveling
+        <br>
+
+        <label for="city">city</label>
+        <select name="" >
+            <option value="">bgh</option><!-- Hard coreded option-->
+            <option value="">sbp</option>
+            <option value="">hsw</option>
+        </select>
+        <textarea ></textarea>
+        
+        <label >Country</label>
+        <input list="country">
+        <datalist id="country">
+            <option value="india">
+            <option value="usa">
+            <option value="uk">
+            <option value="japan">
+            <option value="russia"> <!--Option can also be self closing tag-->
+        </datalist>
+        <input type="range" max="100" min="0">
+        <input type="submit" value="submit">
+    </form>
+
+</body>
+</html>
