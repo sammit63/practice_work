@@ -1,0 +1,24 @@
+*{
+    margin:0px;
+}
+/* padding is internal and margin is external  */
+.box{
+    background: skyblue;
+    padding: 10px;
+    border: 2px solid orange;
+    margin: 10px;
+    box-sizing: border-box;
+    width: 100px;
+    visibility: hidden;
+    display: none;
+}
+img{
+    max-width: 400px;
+    width: 400px;
+    border-radius: 200px;
+    border: 2px solid green;
+    margin: 20px;
+}
+span{
+    display: block;
+}

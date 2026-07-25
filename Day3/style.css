@@ -39,3 +39,24 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
 }
+#typograph{
+    font-size: 40px;
+    font-weight: 800px;
+    border: 2px solid black;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 40px;
+}
+.parent{
+    width:400px;
+}
+.child{
+    width:50%;
+}
+
+.viewport{
+    width:50vh;
+    height: 40vw;
+    border: 2px solid blue;
+    margin-left: 20vh;
+}
