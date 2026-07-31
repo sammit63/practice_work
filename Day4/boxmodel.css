@@ -22,3 +22,20 @@ img{
 span{
     display: block;
 }
+
+.boxx{
+    background: skyblue;
+    padding: 10px;
+    border: 2px solid orange;
+    margin: 10px;
+    box-sizing: border-box;
+    float: left;
+
+}
+.parent{
+    border: 2px solid red;
+    
+}
+.child{
+    border:2px solid black;
+}
