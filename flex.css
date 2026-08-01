@@ -1,0 +1,23 @@
+.container{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center; /*for main axis*/
+    height: 400px;
+    align-items: center; /*for cross axis*/ 
+    gap: 50px;
+}
+.one{
+    flex-grow:1;
+}
+.two{
+    order: -1;
+}
+
+.item{
+    color: tomato;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    margin: 10px;
+}
