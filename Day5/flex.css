@@ -12,6 +12,7 @@
 }
 .two{
     order: -1;
+    flex-grow:3;
 }
 
 .item{
