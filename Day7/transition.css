@@ -1,0 +1,25 @@
+button{
+    background: blue;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s transform 0.3s;
+    /* transition: duration timing function delay */
+
+}
+
+button:hover{
+    background: red;
+    transform: scale(0.9);
+}
+.box{
+    width:150px;
+    height:150px;
+    background: skyblue;
+    transition:0.3;
+
+}
+
+.box:hover{
+    transform:scale(1.2);
+    transform: translateX(100px)rotate(45deg);
+}

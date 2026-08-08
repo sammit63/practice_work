@@ -1,0 +1,98 @@
+/* h1::before{
+    content: "😂";
+}
+h1::after{
+    content: "😊";
+}
+
+a{
+    text-decoration: none;
+    position: relative;
+}
+a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    width: 100%;
+    height: 2px;
+    background: red;
+}
+a::after{
+    width: 0px;
+    transition: 0.3s;
+
+
+}
+a:hover::after{
+    width: 100%;
+} */
+/* 
+button{
+    position: relative;
+}
+button::after{
+    content: "3";
+    position: absolute;
+    background: red;
+    top: -10px;
+    right: -10px;
+    color: white;
+    width: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p::first-letter{
+    font-size: 100px;
+    font-weight: 20px;
+    color: rgb(125, 41, 41);
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+}
+p::selection{
+    background: black;
+    color: yellow;
+}
+::placeholder{
+    color: antiquewhite;
+    font-style: italic;
+}
+li::marker{
+    color: red;
+    font-size: 30px;
+}
+/* active focus visited in class  */
+button{
+    background: blue;
+    color: aliceblue;
+    padding: 10px 30px;
+
+}
+button:active{
+    transform: scale(0.9);
+}
+
+input:focus{
+    border: 2px solid green;
+    outline: none;
+}
+a:visited{
+    color: purple;
+}
+
+
+li:first-child{
+    color: red;
+}
+li:nth-child(3n+1){
+    color: green;
+}
