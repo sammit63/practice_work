@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 40px;
+}
+.progress-container{
+    width: 430px;
+    height: 25px;
+    background-color: aqua;
+    border-radius: 20px;
+    position: relative;
+
+}
+.progress-bar{
+    height: 100%;
+    width: 10%;
+    background-color: blue;
+    border-radius: 20px;
+    position: absolute;
+    transition: 0.8s;
+
+}
+.progress-bar::after{
+    content: "10%";
+    position: absolute;
+    left: 10%;
+    top:12% ;
+    font-size: 14px;
+    font-weight: bold;
+}
+.progress-container:hover .progress-bar{
+    width: 70%;
+}
+
+.progress-container:hover .progress-bar::after{
+    content: "70%";
+}
