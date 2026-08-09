@@ -18,10 +18,7 @@
     width: 70%;
     background: red;
 }
-/* .progress-container:hover.span{
-    content: '70%';
-}
- */
+
 .progress-bar span {
     font-size: 0;
 }
