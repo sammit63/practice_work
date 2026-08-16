@@ -1,1 +1,5 @@
 sir ke github repo ka link :
+
+
+github : for initializing any new repository or new file folder first write-> git init then the other steps
+
