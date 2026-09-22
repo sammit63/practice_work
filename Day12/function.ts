@@ -7,3 +7,5 @@ function hello(msg:string)//parameter  // function declaration is hoisted i.e we
 }
 
 hello('sammit')  //argument
+
+
